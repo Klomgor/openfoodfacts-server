@@ -232,4 +232,8 @@
          <loc>https://openfoodfacts.github.io/openfoodfacts-server/dev/ref-perl/</loc>
          <lastmod>2025-08-21</lastmod>
     </url>
+    <url>
+         <loc>https://openfoodfacts.github.io/openfoodfacts-server/events/</loc>
+         <lastmod>2025-08-21</lastmod>
+    </url>
 </urlset>
