@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://openfoodfacts.github.io/openfoodfacts-server/dev/how-to-develop-producer-platform/">
+        <link rel="canonical" href="https://openfoodfacts.github.io/openfoodfacts-server/dev/explain-user-management/">
       
       
-        <link rel="prev" href="../how-to-debug-minion-import-and-export-tasks/">
+        <link rel="prev" href="../explain-taxonomy-build-cache/">
       
       
-        <link rel="next" href="../how-to-develop-using-docker/">
+        <link rel="next" href="../ref-docker-commands/">
       
       
       <link rel="icon" href="https://static.openfoodfacts.org/images/logos/off-logo-favicon-light.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>How to develop on the producers platform - Product Opener (Open Food Facts Server)</title>
+        <title>Explain User Management and Authentication - Product Opener (Open Food Facts Server)</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-develop-on-the-producers-platform" class="md-skip">
+        <a href="#explain-user-management-and-authentication" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to develop on the producers platform
+              Explain User Management and Authentication
             
           </span>
         </div>
@@ -1232,32 +1232,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    How to develop on the producers platform
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../how-to-develop-producer-platform/" class="md-nav__link">
         
   
   
@@ -1268,77 +1246,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#shell-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Shell Setup:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-workflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Development Workflow:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#working-with-product-importexport-and-interacting-with-the-public-platform" class="md-nav__link">
-    <span class="md-ellipsis">
-      Working with Product Import/Export and Interacting with the Public Platform:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Working with Product Import/Export and Interacting with the Public Platform:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#note-the-setup-does-not-currently-support-running-the-http-server-for-both-public-and-pro-platform-at-the-same-time-therefore-to-access-the-public-platform-you-need-to-follow-these-steps" class="md-nav__link">
-    <span class="md-ellipsis">
-      Note: The setup does not currently support running the http server for both public and pro platform at the same time. Therefore, to access the public platform, you need to follow these steps:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1808,10 +1715,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../explain-user-management/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Explain User Management and Authentication
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1822,6 +1751,152 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#keycloak" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keycloak
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Keycloak">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-register-an-oidc-client" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to register an OIDC client
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login-and-registration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login and registration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Login and registration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-product-opener-open-x-facts-websites" class="md-nav__link">
+    <span class="md-ellipsis">
+      In Product Opener (Open x Facts websites)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wiki
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hunger-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hunger game
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taxonomy-editor-and-nutripatrol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Taxonomy editor and Nutripatrol
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Users information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Users information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#users-main-informations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Users main informations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users-preferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Users preferences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      User roles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      In development
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1998,46 +2073,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#keycloak" class="md-nav__link">
     <span class="md-ellipsis">
-      Prerequisites:
+      Keycloak
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#shell-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Shell Setup:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#development-workflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Development Workflow:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#working-with-product-importexport-and-interacting-with-the-public-platform" class="md-nav__link">
-    <span class="md-ellipsis">
-      Working with Product Import/Export and Interacting with the Public Platform:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Working with Product Import/Export and Interacting with the Public Platform:">
+    <nav class="md-nav" aria-label="Keycloak">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#note-the-setup-does-not-currently-support-running-the-http-server-for-both-public-and-pro-platform-at-the-same-time-therefore-to-access-the-public-platform-you-need-to-follow-these-steps" class="md-nav__link">
+  <a href="#how-to-register-an-oidc-client" class="md-nav__link">
     <span class="md-ellipsis">
-      Note: The setup does not currently support running the http server for both public and pro platform at the same time. Therefore, to access the public platform, you need to follow these steps:
+      How to register an OIDC client
     </span>
   </a>
   
@@ -2045,6 +2093,108 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login-and-registration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login and registration
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Login and registration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-product-opener-open-x-facts-websites" class="md-nav__link">
+    <span class="md-ellipsis">
+      In Product Opener (Open x Facts websites)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wiki
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hunger-game" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hunger game
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taxonomy-editor-and-nutripatrol" class="md-nav__link">
+    <span class="md-ellipsis">
+      Taxonomy editor and Nutripatrol
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Users information
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Users information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#users-main-informations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Users main informations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#users-preferences" class="md-nav__link">
+    <span class="md-ellipsis">
+      Users preferences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      User roles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      In development
+    </span>
+  </a>
   
 </li>
       
@@ -2064,7 +2214,7 @@
 
 
   
-    <a href="https://github.com/openfoodfacts/openfoodfacts-server/edit/main/docs/dev/how-to-develop-producer-platform.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/openfoodfacts/openfoodfacts-server/edit/main/docs/dev/explain-user-management.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2072,63 +2222,92 @@
   
 
 
-<h1 id="how-to-develop-on-the-producers-platform">How to develop on the producers platform<a class="headerlink" href="#how-to-develop-on-the-producers-platform" title="Permanent link">#</a></h1>
-<p>Here is how to develop for the producers platform using docker.</p>
-<h3 id="prerequisites">Prerequisites:<a class="headerlink" href="#prerequisites" title="Permanent link">#</a></h3>
+<h1 id="explain-user-management-and-authentication">Explain User Management and Authentication<a class="headerlink" href="#explain-user-management-and-authentication" title="Permanent link">#</a></h1>
+<blockquote>
+<p>:pencil: <strong>Note:</strong> this document explains the target configuration,
+we are currently in the process of migrating towards it</p>
+</blockquote>
+<p>User management mostly happens in keycloak.</p>
+<h2 id="keycloak">Keycloak<a class="headerlink" href="#keycloak" title="Permanent link">#</a></h2>
+<p><a href="https://www.keycloak.org/">Keycloak</a>
+is an Open Source identity and access management platform.</p>
+<p>The <a href="https://github.com/openfoodfacts/openfoodfacts-auth">openfoodfacts-auth</a> project
+handles a specific deployment of keycloak fitted to our needs.</p>
+<p>You can refer to its documentation.</p>
+<p>In production, it is deployed as https://auth.openfoodfacts.org/</p>
+<p>Our users are inside the "openfoodfacts" realm.</p>
+<p>To login as a keycloak administrator (that is administrator of all realms),
+you can log to https://auth.openfoodfacts.org/admin/
+with a specific account (which is distinct from your Open Food Facts Account)</p>
+<h3 id="how-to-register-an-oidc-client">How to register an OIDC client<a class="headerlink" href="#how-to-register-an-oidc-client" title="Permanent link">#</a></h3>
 <ul>
-<li>Docker should already be <a href="../how-to-quick-start-guide/">set up for development</a>.</li>
+<li>Create a client id (e.g. "OFF") in Keycloak by following these instructions: https://github.com/openfoodfacts/openfoodfacts-auth?tab=readme-ov-file#internal-backend-client</li>
+<li>Set the $oidc_client_id and $oidc_client_secret values in Config2.pm</li>
+<li>Set the $oidc_implementation_level=1 in Config2.pm and export all of the variables</li>
+<li>Make sure the redis listener service is started for each instance</li>
 </ul>
-<h3 id="shell-setup">Shell Setup:<a class="headerlink" href="#shell-setup" title="Permanent link">#</a></h3>
-<p>You will need two types of shells:</p>
+<h2 id="login-and-registration">Login and registration<a class="headerlink" href="#login-and-registration" title="Permanent link">#</a></h2>
+<p>Keycloak acts as a SSO to all dev platform.</p>
+<h3 id="in-product-opener-open-x-facts-websites">In Product Opener (Open x Facts websites)<a class="headerlink" href="#in-product-opener-open-x-facts-websites" title="Permanent link">#</a></h3>
+<p>The authentification is handled through <strong>FIXME explain OIDC and session cookie</strong></p>
+<p>When users come to one of our website,
+they are redirected to the login or registration forms of keycloak.</p>
+<p>Keycloak also handles password reset.</p>
+<h3 id="wiki">Wiki<a class="headerlink" href="#wiki" title="Permanent link">#</a></h3>
+<p>At the moment the wiki uses a plugin
+to read the authentication cookie from Open Food Facts
+(it's possible because we are on the same domain)
+to authenticate users in the wiki.</p>
+<h3 id="hunger-game">Hunger game<a class="headerlink" href="#hunger-game" title="Permanent link">#</a></h3>
+<p>Reads the authentication cookie from Open Food Facts.
+and use the <code>auth.pl?body=1</code> to get users info and roles.</p>
+<h3 id="taxonomy-editor-and-nutripatrol">Taxonomy editor and Nutripatrol<a class="headerlink" href="#taxonomy-editor-and-nutripatrol" title="Permanent link">#</a></h3>
+<p>The backend reads the authentication cookie from Open Food Facts,</p>
+<p>Reads the authentication cookie from openfoodfacts.
+and use the <code>auth.pl?body=1</code> to get users info and roles.</p>
+<p>They both cache the results.</p>
+<h2 id="users-information">Users information<a class="headerlink" href="#users-information" title="Permanent link">#</a></h2>
+<h3 id="users-main-informations">Users main informations<a class="headerlink" href="#users-main-informations" title="Permanent link">#</a></h3>
+<p>The main user information is stored in Keycloak using the PostgreSQL database.</p>
+<h3 id="users-preferences">Users preferences<a class="headerlink" href="#users-preferences" title="Permanent link">#</a></h3>
+<p>Keycloak stores user's information, but not application specific preferences
+which are deferred to a file on disk. (see <code>User.pm</code>, <code>retrieve_user</code> and <code>store_user</code>)</p>
+<p>Those files are in a users dataset which is shared between all OxF websites.</p>
+<blockquote>
+<p>Note: They are in STO format (Perl serialization), but we are transitioning to a JSON format. Also they could be better stored in a database like postgreSQL.</p>
+</blockquote>
+<h3 id="user-roles">User roles<a class="headerlink" href="#user-roles" title="Permanent link">#</a></h3>
+<p>Apart from simple users, there are important users roles:</p>
 <ul>
-<li><strong>Shell for OpenFoodFacts</strong>:<ul>
-<li>Use this shell for general development on the OpenFoodFacts platform.</li>
+<li>administrator</li>
+<li>moderator</li>
+<li>moderator for the producers platform</li>
 </ul>
-</li>
-<li><strong>Shell for OpenFoodFacts-Pro</strong>: Use this shell when working on the OpenFoodFacts-Pro platform.<ul>
-<li>To set up the shell, run the command: <code>. env/setenv.sh off-pro</code> (this simply sets some environment variables that will override the ones in <code>.env</code>).</li>
-<li>Once the shell is set up, your prompt will show <code>(pro)</code> to indicate that you are in the producers environment.</li>
-</ul>
-</li>
-</ul>
-<h3 id="development-workflow">Development Workflow:<a class="headerlink" href="#development-workflow" title="Permanent link">#</a></h3>
-<p>To develop on the producers platform, follow these steps:</p>
+<p>There are also a series of informative flags on the user to specify that an account is:</p>
 <ul>
-<li>Open a shell for OpenFoodFacts-Pro.</li>
-<li>Run the command <code>make dev</code> to start the development environment. This command functions as usual.<ul>
-<li>If you encounter any issues with CSS not showing up, you can run <code>make build_lang</code> in the <em>pro</em> shell.</li>
+<li>a producer account belonging a specific org</li>
+<li>a bot account</li>
+<li>an account used by an application to access the data, and so on</li>
 </ul>
-</li>
-</ul>
-<h3 id="working-with-product-importexport-and-interacting-with-the-public-platform">Working with Product Import/Export and Interacting with the Public Platform:<a class="headerlink" href="#working-with-product-importexport-and-interacting-with-the-public-platform" title="Permanent link">#</a></h3>
-<p>If you need to work on product import/export or interact with the public platform, you must start the following services: <code>PostgreSQL</code>, and the <code>Minion</code>. Here's how:</p>
+<p>User roles are specified:</p>
 <ul>
-<li>In a <em>non-pro</em> shell (OpenFoodFacts shell), run the command <code>docker compose up postgres minion</code>.<ul>
-<li>This command starts the necessary services in the background.</li>
+<li>in the config file for administrators (<code>$admins</code> variable)</li>
+<li>through specific properties of user preferences for the other roles</li>
 </ul>
-</li>
-</ul>
-<h4 id="note-the-setup-does-not-currently-support-running-the-http-server-for-both-public-and-pro-platform-at-the-same-time-therefore-to-access-the-public-platform-you-need-to-follow-these-steps">Note: The setup does not currently support running the http server for both public and pro platform at the same time. Therefore, to access the public platform, you need to follow these steps:<a class="headerlink" href="#note-the-setup-does-not-currently-support-running-the-http-server-for-both-public-and-pro-platform-at-the-same-time-therefore-to-access-the-public-platform-you-need-to-follow-these-steps" title="Permanent link">#</a></h4>
-<ul>
-<li>in your <em>pro shell</em>, run a <code>docker compose stop frontend</code></li>
-<li>in your <em>non pro shell</em>, run a <code>docker compose up frontend</code>
-Now, the public database can be accessed at <code>openfoodfacts.localhost</code>.If you need to access the <em>pro</em> HTTP server, reverse these steps.</li>
-</ul>
-<p>Note that if you <a href="../how-to-use-direnv/">use direnv</a>, the setup should work seamlessly without redefining the variables set by <code>setenv.sh</code>.</p>
-<p>An explanation of the setup can be found at <a href="../explain-pro-dev-setup/">explain-pro-dev-setup.md</a></p>
-<ul>
-<li>If you want to see the state of tasks, you can run:</li>
-</ul>
-<p><div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>minion<span class="w"> </span>/opt/product-opener/scripts/minion_producers.pl<span class="w">  </span>minion<span class="w"> </span>job
-</code></pre></div>
-(add --help to see all options), or refer to https://docs.mojolicious.org/Minion/Command/minion/job</p>
-<ul>
-<li>You may also inspect the database by running:
-<div class="highlight"><pre><span></span><code>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w">  </span>postgres<span class="w"> </span>psql<span class="w"> </span>-U<span class="w"> </span>productopener<span class="w"> </span>-W<span class="w"> </span>minion
-</code></pre></div>
-The password is given by the <code>POSTGRES_PASSWORD</code> variable in the <code>.env</code> file and defaults to <code>productopener</code>. 
-Inspecting the minion table can be helpful in understanding the database structure and contents.</li>
-</ul>
+<p>On producer platform, role within an org (administrator or user of an organization)
+is part of the organization information, stored in a file on disk (<code>orgs</code> dataset).</p>
+<h2 id="in-development">In development<a class="headerlink" href="#in-development" title="Permanent link">#</a></h2>
+<p>In development, the openfoodfacts-auth project is a service dependency of this project.
+See <a href="https://github.com/openfoodfacts/.github/blob/main/docs/service-dependencies.md">Service Dependencies</a></p>
+<p>If you want to become admin of the website,
+you just need to create a user using one of the account listed in <code>admins</code>,
+like <code>stephane</code>.
+With this account you can eventually give any role to other accounts.</p>
+<p>On keycloak side,
+the <code>openfoodfacts-auth</code> container sets up the <code>root:test</code> admin user by default,
+Although it's not strictly necessary during development
+you may use it to gain admin access to keycloak as admin
+on http://auth.openfoodfacts.localhost:5600/admin/.</p>
 
 
 
