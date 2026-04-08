@@ -6,7 +6,7 @@
 # - handle variations using the synonyms (e.g. missing or added separators like ' or spaces, possibly missing 's)
 
 # The brands taxonomy should not be used to:
-# - handle misspelings (do not add misspellings in the taxonomy as synonyms)
+# - handle misspellings (do not add misspellings in the taxonomy as synonyms)
 # - handle parent / child brands (too much potential for errors and conflicts, especially in an international setting and with products from different types)
 # Note: an old draft owners/brands taxonomy lives in taxonomies/unused/brands.txt, but it is hierarchic, which is something we do not want in this taxonomy.
 # You can usefully read: https://wiki.openfoodfacts.org/Brands to get up and running on the subtleties of the topic.
@@ -233,7 +233,7 @@ xx: Crownfield
 xx: Culinea
 
 xx: Daelmans
-wikidate:en: Q136842173
+wikidata:en: Q136842173
 
 xx: DA
 
@@ -432,7 +432,7 @@ xx: Go-Tan, Go Tan
 wikidata:en: Q137442304
 
 xx: Go Vega!
-commemt:en: no trademark found in Benelux or EU
+comment:en: no trademark found in Benelux or EU
 wikidata:en: Q137177089
 
 xx: Grainway
@@ -496,7 +496,7 @@ wikidata:en: Q10516119
 xx: ICA Asia
 
 #< xx:ICA
-xx: ICA Basic, ICA Bas%c
+xx: ICA Basic
 
 #< xx:ICA
 xx: ICA i❤️eco, ICA I Love Eco, i love eco, I Love Eco ICA, ICA i♥eco, i♥eco, i❤️eco, ICA i <3 eco, i <3 eco, I Heart Eco, ICA eco
@@ -559,7 +559,7 @@ xx: Kiekeboe
 wikidata:en: Q136880977
 
 xx: Kaptein
-wikidate:en: Q136825884
+wikidata:en: Q136825884
 
 xx: Kavli
 wikidata:en: Q1208110
