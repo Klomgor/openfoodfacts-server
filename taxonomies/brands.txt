@@ -964,6 +964,9 @@ xx: Soutenons nos agriculteurs
 
 xx: Special K
 
+#< xx:Axfood
+xx: Spicefield
+
 xx: Spree
 wikidata:en: Q7580308
 
@@ -991,6 +994,9 @@ wikidata:en: Q107071944
 
 xx: Takovo
 wikidata:en: Q58177342
+
+#< xx:Spicefield
+xx: Taste from Asia
 
 xx: Tastes Good
 wikidata:en: Q137589623
