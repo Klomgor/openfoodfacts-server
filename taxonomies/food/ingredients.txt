@@ -23414,7 +23414,7 @@ en: whole wheat, whole grain wheat, wholegrain wheat, wholewheat
 ar: قمح كامل
 bg: пълнозърнеста пшеница
 da: fuldkornshvede
-de: Vollkornweizen
+de: Vollkornweizen, Weizenvollkorn
 el: σίτος ολικής αλέσεως
 es: trigo integral
 fi: täysjyvävehnä
@@ -61228,7 +61228,7 @@ en: brazil nut, brazil nuts
 bg: бразилски орехи
 cs: para ořechy
 da: paranødder
-de: Paranuss, Paranüsse, Paranusskerne
+de: Paranuss, Paranüsse, Paranüssen, Paranusskerne
 el: καρύδια Βραζιλίας
 es: nueces de Brasil, nuez de Brasil, nueces del Amazonas, coquito, coquitos
 et: brasiilia pähklid, parapähklid, parapähkleid
@@ -61274,7 +61274,7 @@ bg: кашу
 ca: anacards
 cs: kešu ořechy
 da: cashewnødder
-de: Cashewkerne, Kaschunüsse, Cashewnüsse, Cashew, Cashewnuss, cashews
+de: Cashewkerne, Kaschunüsse, Cashewnüsse, Cashewnüssen, Cashew, Cashewnuss, cashews
 el: καρύδια κάσιους
 es: anacardos, nueces de anacardos, castañas de cajú
 et: kašupähklid, India pähkel, kašupähkleid
@@ -62117,7 +62117,7 @@ en: pecan nut, pecan nuts, pecan, pecans
 bg: пеканови ядки, американски орех
 cs: pekanové ořechy
 da: pekannødder
-de: Pekannuss, Pekannüsse, Pecannüsse, Pecankerne, Pecannusskerne
+de: Pekannuss, Pekannüsse, Pekannüssen, Pecannüsse, Pecankerne, Pecannusskerne
 el: καρύδια πεκάν
 es: Nueces de pecán, pacanas, nueces pacanas, nuez pecana
 et: pekaanipähkel, pekanipähklid, pekaanipähkleid
