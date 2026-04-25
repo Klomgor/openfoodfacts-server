@@ -4931,6 +4931,7 @@ es: crema de leche ligera espesa, nata ligera espesa
 < en:cream
 en: single cream
 bg: течна сметана
+ca: nata líquida
 de: Halbrahm, Haldsahne
 fi: ruokakerma
 fr: crème liquide, demi-crème
@@ -88255,7 +88256,7 @@ af: spaghetti
 ar: سباغيتي
 be: спагеці
 bg: спагети
-ca: espagueti
+ca: espagueti, espaguetis
 cs: špagety
 da: spaghetti
 de: spaghetti
